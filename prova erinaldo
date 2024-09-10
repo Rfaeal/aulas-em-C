@@ -1,0 +1,110 @@
+1. Crie uma função que receba um número inteiro de 1 a 10 e retorne 1 se o númerofor primo. Caso contrário, não retorne nada. Você não pode usar laços de repetição,
+por essa razão, limite a verificação a um conjunto pequeno de números paraverificar se são primos. Um número primo é divisível apenas por 1 e por ele mesmo.
+(0.1 ponto)
+
+https://onlinegdb.com/svpIR5OBD
+
+2. Crie uma função que verifique se um ano fornecido é bissexto. Retorne 1 se forbissexto, caso contrário, a função não deve retornar nada. Um ano é bissexto se for
+divisível por 4, exceto os divisíveis por 100, a menos que também sejam divisíveispor 400. (0.1 ponto)
+
+https://onlinegdb.com/-eVsaq5_I
+
+3. Crie uma função que receba três lados de um triângulo e verifique se esses ladosformam um triângulo válido. Um triângulo é válido se a soma de dois de seus lados
+for sempre maior que o terceiro. Caso o triângulo seja válido, a função deveráretornar 1. Caso contrário, não deve retornar nada. (0.1 ponto)
+
+https://onlinegdb.com/k_rXL-d5yJ
+
+4. Elabore uma função que receba três lados de um triângulo e verifique se ele é umtriângulo retângulo. Um triângulo é retângulo se o quadrado da hipotenusa (o maior
+lado) for igual à soma dos quadrados dos outros dois lados. Caso o triângulo sejaretângulo, a função deverá informar ao usuário que o triângulo é retângulo, caso
+contrário, não deverá fazer nada. (0.1 ponto)
+
+https://onlinegdb.com/JgYYiCDMS
+
+5. Crie uma função que receba a idade de uma pessoa e verifique se ela é maior deidade (18 anos ou mais). A função deve exibir uma mensagem diferente para os
+casos em que a pessoa é maior ou menor de idade. (0.3 ponto)
+
+https://onlinegdb.com/2ni4cM0Px
+
+6. Elabore uma função que receba a nota de um aluno (de 0 a 10) e classifique seele foi aprovado ou reprovado. A aprovação ocorre se a nota for 7 ou superior, e
+reprovação caso contrário. A função deve exibir mensagens para os dois casos. (0.3ponto)
+
+https://onlinegdb.com/T6HcDr35d
+
+7. Desenvolva uma função que receba um número inteiro e determine se ele é parou ímpar. Exiba uma mensagem correspondente para cada caso. (0.3 ponto)
+
+https://onlinegdb.com/x0hQ6Ps8N
+
+8. Elabore uma função que calcule o imposto sobre um salário com base no valorrecebido. Se o salário for maior que R$ 5.000,00, o imposto será de 20%. Caso
+contrário, o imposto será de 10%. A função deve exibir o valor do imposto a serpago. (0.3 ponto)
+
+https://onlinegdb.com/ghbgqwv72o
+
+9. Crie uma função que receba o salário bruto de uma pessoa e calcule o valor doImposto de Renda Retido na Fonte (IRRF) com base na tabela de IRRF de 2024.
+Utilize as alíquotas e deduções conforme a tabela abaixo:
+● Até R$ 2.112,00: Isento
+● De R$ 2.112,01 até R$ 2.826,65: Alíquota de 7,5% (dedução de R$ 158,40)
+● De R$ 2.826,66 até R$ 3.751,05: Alíquota de 15% (dedução de R$ 370,40)
+● De R$ 3.751,06 até R$ 4.664,68: Alíquota de 22,5% (dedução de R$ 651,73)
+● Acima de R$ 4.664,68: Alíquota de 27,5% (dedução de R$ 884,96)
+Use a estrutura condicional aninhada para calcular o imposto corretamente. (0.4ponto)
+
+https://onlinegdb.com/DEzlxHCrb
+
+10. Elabore uma função que receba o salário bruto de uma pessoa e calcule o valorda contribuição ao INSS com base na tabela de INSS de 2024. Utilize as faixas e
+alíquotas progressivas para calcular o valor da contribuição:
+● Até R$ 1.320,00: 7,5%
+● De R$ 1.320,01 até R$ 2.571,29: 9%
+● De R$ 2.571,30 até R$ 3.856,94: 12%
+● De R$ 3.856,95 até R$ 7.507,49: 14%
+Use a estrutura condicional aninhada para calcular o desconto corretamente. (0.4ponto)
+
+https://onlinegdb.com/RufMtklHF
+
+11. Crie uma função que receba o valor de um produto e calcule o valor do descontode ICMS com base nas faixas de preço do produto:
+● Até R$ 1.000,00: Desconto de 5%
+● De R$ 1.000,01 até R$ 5.000,00: Desconto de 10%
+● Acima de R$ 5.000,00: Desconto de 15%
+Use a estrutura condicional aninhada para aplicar o desconto corretamente. (0.4ponto)
+
+https://onlinegdb.com/FXGF3YwCB
+
+12. Desenvolva uma função que receba o valor venal de um imóvel e calcule o valordo IPTU com base na tabela abaixo:
+● Até R$ 100.000,00: Alíquota de 1%
+● De R$ 100.000,01 até R$ 300.000,00: Alíquota de 1,5%
+● De R$ 300.000,01 até R$ 500.000,00: Alíquota de 2%
+● Acima de R$ 500.000,00: Alíquota de 2,5%
+Use a estrutura condicional aninhada para aplicar a alíquota corretamente. (0.4ponto)
+
+https://onlinegdb.com/PtYkN80vt
+
+13. Crie um programa que simule uma calculadora simples. O programa devepermitir ao usuário escolher entre quatro operações aritméticas: soma, subtração,
+multiplicação e divisão. O usuário deve informar a operação desejada e doisnúmeros. O programa deve realizar a operação selecionada e exibir o resultado.
+Caso a operação não seja reconhecida, o programa deve informar um erro. (0.2ponto)
+
+https://onlinegdb.com/TtMrpHDUIr
+
+14. Elabore um programa que exiba uma mensagem de boas-vindas baseada noturno do dia. O usuário deve informar o turno usando um número (1 para manhã, 2
+para tarde, 3 para noite). O programa deve exibir uma mensagem apropriada paracada turno e um erro para entradas inválidas. (0.2 ponto)
+
+https://onlinegdb.com/nl6V8mzPH
+
+15. Crie um programa que converta um valor monetário entre três moedas: real(BRL), dólar (USD) e euro (EUR). O usuário deve informar a moeda de origem, a
+moeda de destino e o valor a ser convertido. As taxas de conversão são asseguintes:
+● 1 USD = 5.30 BRL
+● 1 EUR = 6.20 BRL
+● 1 BRL = 0.19 USD
+● 1 BRL = 0.16 EUR
+O programa deve calcular e exibir o valor convertido. Se a moeda informada não forreconhecida, o programa deve exibir uma mensagem de erro. (0.2 ponto)
+
+https://onlinegdb.com/uw2JrwCff
+
+16. Desenvolva um programa que classifique o desempenho acadêmico de umaluno com base em sua nota final. A nota deve ser informada pelo usuário e
+classificada da seguinte forma:
+● A (nota >= 9.0)
+● B (nota >= 7.0 e < 9.0)
+● C (nota >= 5.0 e < 7.0)
+● D (nota < 5.0)
+O programa deve exibir a classificação correspondente. Se a nota estiver fora dointervalo de 0 a 10, o programa deve informar um erro. (0.2 ponto)
+
+https://onlinegdb.com/jyZ4FfOOD
+
